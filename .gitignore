@@ -1,7 +1,7 @@
 obj/
 *.layout
 *.depend
-bin/*/Chess
+bin/*/BigInt
 bin/*/core
 CppCheckResults.xml
 bin/Debug/valgrind-output.txt
