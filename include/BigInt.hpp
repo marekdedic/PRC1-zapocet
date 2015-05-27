@@ -6,10 +6,11 @@ class BigInt
 public:
     BigInt();
     BigInt(int input);
-    BigInt(const BigInt&) = delete;
-    BigInt(BigInt&&) = delete;
-    BigInt& operator= (const BigInt&) = delete;
-    BigInt& operator= (BigInt&&) = delete;
+    BigInt operator-() const;
+    BigInt& operator+=(const BigInt& other);
+    const BigInt operator+(const BigInt& other) const;
+    BigInt& operator-=(const BigInt& other);
+    const BigInt operator-(const BigInt& other) const;
 
     friend std::ostream& operator<<(std::ostream& os, const BigInt& obj);
 private:
