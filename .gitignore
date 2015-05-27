@@ -1,0 +1,9 @@
+obj/
+*.layout
+*.depend
+bin/*/Chess
+bin/*/core
+CppCheckResults.xml
+bin/Debug/valgrind-output.txt
+.c9/
+
