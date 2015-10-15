@@ -5,5 +5,6 @@
 #include <limits.h>
 #include <string>
 #include <vector>
+#include <exception>
 
 #endif // GLOBAL_HPP
