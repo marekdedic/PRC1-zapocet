@@ -1,5 +1,6 @@
 #ifndef BIGINT_HPP
 #define BIGINT_HPP
+#include "Global.hpp"
 
 class BigInt
 {

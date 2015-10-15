@@ -1,9 +1,9 @@
-#ifndef LIBS_HPP
-#define LIBS_HPP
+#ifndef GLOBAL_HPP
+#define GLOBAL_HPP
 
 #include <iostream>
 #include <limits.h>
 #include <string>
 #include <vector>
 
-#endif // LIBS_HPP
+#endif // GLOBAL_HPP

@@ -1,4 +1,4 @@
-#include "Main.hpp"
+#include "../include/Main.hpp"
 using namespace std;
 
 int main()

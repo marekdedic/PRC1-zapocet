@@ -1,4 +1,4 @@
-#include "../Main.hpp"
+#include "../include/BigInt.hpp"
 using namespace std;
 
 BigInt::BigInt() : digits{}
